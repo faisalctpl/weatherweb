@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{>headerlinks}}
+</head>
+
+<body>
+  <div class="container-fluid main_menu">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <nav class="navbar navbar-expand-lg ">
+          <a class="navbar-brand" href="#"><i class="fa-regular fa-snowflake"></i> WeatherWeb <i
+              class="fa-regular fa-snowflake"></i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/weather">Weather</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About us</a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main header -->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <!-- left side div -->
+
+          <div class="col-md-6 col-12 main_header_right align-items-center">
+            <figure>
+                <img src="images/about.png" alt="faisal" class="img-fluid" title="faisal_khan">
+            </figure>
+          </div>
+
+            <!-- right side div -->
+            
+          <div class="col-md-6 col-12 main_header_left">
+            <p>Welcome to CodeWithFaisal</p>
+            <h1>I am a <span class="text_clr"> Mern Stack Developer</span> Youtuber and a freelancer</h1>
+            <a href="https://faisalctpl.github.io/MyportFolio/" target="_blank"><button>About me</button></a>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- footer code  -->
+    {{>footer}}
+</body>
+
+</html>
